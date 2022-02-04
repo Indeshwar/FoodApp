@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    username:
+    password:
+    url: jdbc:postgresql://localhost:5432/meals
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-atuo: update
+
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQL9Dialect
+
+
+

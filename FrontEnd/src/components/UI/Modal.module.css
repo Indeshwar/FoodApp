@@ -1,0 +1,29 @@
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 20;
+    background-color: rgba(0, 0, 0, 0.75);
+
+}
+
+.modal {
+    position: fixed;
+    top: 18vh;
+    left: 35%;
+    width: 30%;
+    background-color: burlywood;
+    padding: 1rem;
+    border-radius: 14px;
+    z-index: 100;
+    overflow: hidden;
+}
+
+.content {
+    padding: 20px; 
+    color: black;
+    font-size: 20px;
+ 
+ }

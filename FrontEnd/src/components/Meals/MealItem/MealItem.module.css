@@ -1,0 +1,18 @@
+.meal {
+    border-bottom: 1px solid #bbb;
+    padding: 1rem;
+    white-space: nowrap;
+    overflow: auto;
+}
+
+.description {
+    color: black;
+    font-style: italic;
+}
+
+.price {
+    color: chocolate;
+    font-weight: bold;
+    font-size: 1rem;
+}
+

@@ -1,0 +1,26 @@
+.form { 
+    float: right;
+    display: inline-block;
+}
+
+.form button {
+    font: inherit;
+    /* border: 1px solid brown; */
+    background-color: brown;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 0.25rem 1 rem;
+    cursor: pointer;
+}
+
+.form button:hover,
+.form button:active{
+    background-color: green;
+    border-color: green;
+}
+
+.form button:focus {
+    outline: none;
+}

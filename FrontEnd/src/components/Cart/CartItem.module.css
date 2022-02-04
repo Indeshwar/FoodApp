@@ -1,0 +1,44 @@
+.cart-item {
+    padding-bottom: 12px;
+    border-bottom: 2px solid black;
+}
+
+.actions {
+    float: right;
+    display: inline; 
+}
+
+.actions button {
+    margin: 5px;
+    padding: 2px 15px;
+    align-content: center;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.actions button:hover {
+    background-color: rgba(0, 0, 0, 0.20);
+}
+
+.summary {
+    display: inline;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.price {
+    margin: 0.5rem;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+.amount {
+    margin: 0.5rem;
+    border: blanchedalmond;
+    background-color: rgba(0, 0, 0, 0.20);
+    font-size: 1.2rem;
+    font-style: italic;
+    border-radius: 5px;
+    padding: 0.2rem;
+  
+}
